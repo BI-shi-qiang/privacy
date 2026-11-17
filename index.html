@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="description" content="一页风景 · 新标签主题的隐私说明：本地主题设置、壁纸处理、权限与数据删除方式。">
+    <title>隐私政策 · 一页风景</title>
+    <style>
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+        color: #34313a;
+        background: #faf8f5;
+        font-synthesis: none;
+        line-height: 1.85;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      .page { width: min(100% - 48px, 760px); margin: 0 auto; }
+      header { padding-top: 48px; }
+      .brand { display: flex; align-items: center; gap: 12px; font-size: 15px; font-weight: 600; letter-spacing: 1px; }
+      .brand svg { width: 40px; height: 40px; flex-shrink: 0; }
+      main { margin: 48px 0 56px; }
+      .eyebrow { margin: 0 0 10px; color: #887360; font-size: 11px; letter-spacing: 3px; }
+      h1 { margin: 0; font-size: clamp(30px, 6vw, 42px); line-height: 1.35; font-weight: 650; letter-spacing: -1px; }
+      .meta { margin: 16px 0 0; font-size: 13px; color: #736d78; }
+      .intro { margin: 26px 0 32px; padding: 18px 22px; border-left: 3px solid #bda08b; background: #f0ebe6; border-radius: 0 8px 8px 0; font-size: 14px; }
+      section { margin-top: 28px; }
+      h2 { margin: 0 0 10px; font-size: 19px; line-height: 1.5; font-weight: 600; }
+      p { margin: 0 0 14px; }
+      section p { font-size: 15px; color: #514b56; overflow-wrap: anywhere; }
+      code { font-family: ui-monospace, Consolas, monospace; font-size: .9em; background: #eee9e3; border-radius: 4px; padding: 2px 5px; }
+      footer { border-top: 1px solid #e4ded7; padding: 22px 0 32px; font-size: 12px; color: #736d78; }
+      @media (max-width: 480px) {
+        .page { width: calc(100% - 36px); }
+        header { padding-top: 28px; }
+        main { margin-top: 34px; }
+        .intro { padding: 16px 18px; }
+      }
+      @media print {
+        :root { background: white; color: black; }
+        .page { width: 100%; }
+        header { padding-top: 0; }
+        main { margin: 24px 0; }
+        section { break-inside: avoid; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="brand">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect width="40" height="40" rx="11" fill="#62516c"/>
+            <circle cx="27" cy="12" r="4" fill="#f6d3ab"/>
+            <path d="m5 31 11-17 12 17m-5 0 7-10 7 10" stroke="#fff4e8" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+          <span>一页风景 · 新标签主题</span>
+        </div>
+      </header>
+      <main>
+        <p class="eyebrow" lang="en">PRIVACY POLICY</p>
+        <h1>隐私政策</h1>
+        <p class="meta">更新日期：<time datetime="2026-11-17">2026 年 11 月 17 日</time> · 适用版本：1.0.0</p>
+        <p class="intro">本说明适用于“一页风景 · 新标签主题”1.0.0 版本。</p>
+
+        <section aria-labelledby="local-data">
+          <h2 id="local-data">在设备上处理的数据</h2>
+          <p>扩展会在当前浏览器的本地存储中保存主题选择、时间与日期显示开关，以及用户主动选择的自定义壁纸的处理后副本。</p>
+          <p>用户选择图片后，扩展在本机读取、缩放并转换图片，用作新标签页背景。扩展不修改源图片文件，也不保存源文件路径。图片和设置不会通过扩展上传到服务器，也不会通过扩展在设备之间同步。</p>
+        </section>
+
+        <section aria-labelledby="no-collection">
+          <h2 id="no-collection">不收集或传输的数据</h2>
+          <p>扩展不读取浏览历史、其他网页内容、账号信息、密码或地理位置。扩展没有广告、遥测、统计分析、跟踪代码或第三方远程服务，不向开发者或第三方传输用户数据。</p>
+        </section>
+
+        <section aria-labelledby="permissions">
+          <h2 id="permissions">权限</h2>
+          <p>扩展使用 <code>storage</code> 权限，仅用于保存上述本地设置和壁纸。新标签页替换由扩展清单声明，用于显示用户自定义的页面。</p>
+        </section>
+
+        <section aria-labelledby="deletion">
+          <h2 id="deletion">保存与删除</h2>
+          <p>切换到内置渐变主题时，已保存的图片仍保留，以便用户再次使用。在主题设置中点击“删除图片”可删除该副本。选择另一张图片会替换之前保存的图片。卸载扩展会清除该扩展的本地数据。</p>
+        </section>
+
+        <section aria-labelledby="contact">
+          <h2 id="contact">联系方式</h2>
+          <p>如有问题，请通过本扩展商店详情页列出的开发者联系渠道反馈。</p>
+        </section>
+      </main>
+      <footer>一页风景 · 新标签主题</footer>
+    </div>
+  </body>
+</html>
